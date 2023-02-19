@@ -1,8 +1,9 @@
 site_name: CQU-Services
 site_url: https://services.cqulug.club/
-theme: 'flatly'
+theme:
+  name: material
 plugins:
   - search
   - mkdocs-simple-hooks:
-    hooks:
-      on_post_build: "hooks:add_cname"
+      hooks:
+        on_post_build: "hooks:add_cname"
