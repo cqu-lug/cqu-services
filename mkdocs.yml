@@ -3,18 +3,19 @@ site_url: https://services.cqulug.club/
 theme:
   name: material
 nav:
-  - 关于LUG@CQU: 'about.md'
-  - 总览: 'summary.md'
+  - 关于LUG@CQU: "about.md"
+  - 总览: "summary.md"
   - CQU-Code-Index:
-      - 'Index': 'codeIndex/index.md'
+      - "Index": "codeIndex/index.md"
   - 实用工具:
-      - 'Index': 'utils/index.md'
-  - 信息: 
-      - 'Index': 'info/index.md'
+      - "Index": "utils/index.md"
+  - 信息:
+      - "Index": "info/index.md"
   - 网络:
-      - 'Index': 'cmpsNet/index.md'
+      - "Index": "cmpsNet/index.md"
+      - "基本使用": "cmpsNet/base-usage.md"
   - 公号:
-      - 'Index': 'accounts/index.md'
+      - "Index": "accounts/index.md"
 plugins:
   - search
   - mkdocs-simple-hooks:
